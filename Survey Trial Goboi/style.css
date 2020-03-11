@@ -1,0 +1,201 @@
+:root{
+    background-color: #54e224;
+    
+}
+
+
+
+.frame{
+    width: 50%;
+    height: 50%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+} 
+
+
+ 
+ 
+
+
+.footer{
+    min-height: 10px;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    background-color: #23b2e6;
+    font-family: 'Trade Winds', cursive;
+    border-radius: 10px;
+    
+
+
+    
+    
+    
+    
+}
+
+.header{
+    min-height: 100px;
+    background-color: #23b2e6;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 10px;
+
+    
+}
+
+/* .body{
+    min-height: 400px;
+    margin-top: 3%;
+    background-color: #ffffff;
+    margin-top: 100%;
+    margin-bottom: .5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-radius: 10px;
+     */
+
+
+    
+
+
+.choice1{
+    display: inline-block;
+    background-color: #23b2e6;
+    border-radius: 100%;
+    width: 20%;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+    
+}
+.choice2{
+    display: inline-block;
+    background-color: #23b2e6;
+    border-radius: 100%;
+    width: 18%;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+  
+}
+
+.choice3{
+    display: inline-block;
+    background-color: #23b2e6;
+    border-radius: 100%;
+    width: 15%;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+    
+}
+
+.choice4{
+    display: inline-block;
+    background-color: #23b2e6;
+    border-radius: 100%;
+    width: 15%;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+    
+}
+
+
+.choice1:hover{
+    
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: scale(1.1);
+    transition: transform 150ms;
+}
+
+.choice2:hover{
+    
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: scale(1.1);
+    transition: transform 150ms;
+}
+
+.choice3:hover{
+    
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: scale(1.1);
+    transition: transform 150ms;
+}
+
+.choice4:hover{
+    
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: scale(1.1);
+    transition: transform 150ms;
+}
+
+#qImg img{
+
+    border-radius: 2%;
+    
+}
+    
+    
+
+
+ 
+
+
+@media screen and (max-width: 600px), sreen\0{
+    #qImg img{
+        float: initial;
+        width: 100%;
+        margin: 0px;
+        
+        
+        
+        
+       
+    }
+}
+
+
+
+.go{
+    
+    background-color: #23b2e6;
+    font-family: 'Trade Winds', cursive;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 60%;
+    height: 5%;
+}
+
+.go:hover{
+    
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: scale(1.8);
+    transition: transform 150ms;
+}
+
+
+
